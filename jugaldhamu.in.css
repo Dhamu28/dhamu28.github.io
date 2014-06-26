@@ -1,0 +1,202 @@
+/**
+ * Reset - http://goo.gl/2Fft4
+ ********************************************************************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer,
+header, hgroup, menu, nav, section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/**
+ * Basic styles
+ ********************************************************************/
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    /* font-family:Georgia,serif; */
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size: 100%;
+    background-color: #7FFFD4;
+    color: #333;
+    line-height: 1.4;
+    max-width:800px;
+   
+}
+
+
+body > header {
+    
+    overflow: hidden;
+    display:block;
+    border-bottom: 1px solid #EBEBEB;
+    margin-bottom: 1em;
+    margin-top:2em;
+
+}
+body > header h1 a{
+    color: rgb(88, 130, 250);
+    margin-bottom: 0px;
+    float: left;
+    letter-spacing: -2px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    line-height: 1;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:Georgia,serif;
+    font-weight: normal;
+}
+
+h1 {
+    letter-spacing: -1px;
+    font-size: 2.2em;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight:bold;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+h3 {
+    font-size: 1.4em;
+}
+
+h1, h2 {
+    margin-bottom: 0.5em;
+}
+
+a {
+    text-decoration: none;
+       color: rgb(88, 130, 250);
+}
+
+a:hover {
+ color: #06C;  
+ text-shadow: 1px 1px 3px #D5D5D5;
+
+}
+
+p, ul, ol {
+    margin: 1em 0;
+}
+
+ul {
+    list-style-type: square;
+    list-style-type: binary;
+}
+
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: 900;
+}
+
+footer {
+    color: hsla(210, 10%, 50%, 0.6);
+    font-size: 1em;
+}
+
+code,
+.codehilite pre {
+    font-family: Inconsolata, 'Courier New', monospace;
+}
+
+.codehilite pre {
+    font-size: 0.9em;
+    padding: 10px;
+    background-color: #f3f3f3;
+}
+
+body {
+    width: 90%;
+    margin: 0em auto;
+}
+
+article  {
+    margin-top: 0.5em;
+}
+
+article  h1 {
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid #580000;
+}
+
+
+footer {
+    text-align: center;
+    border-top: 1px solid hsla(210, 10%, 50%, 0.2);
+}
+
+
+pre {
+    overflow-x: auto;
+    padding: 1.25em;
+    border: 1px solid #E6E6E6;
+    border-left-width: 5px;
+    margin: 1.7143em 0;
+    font-size: 0.875em;
+    background: #FCFCFC;
+    overflow: hidden;
+}
+
+pre, code {
+    font-family: consolas,monospace,x;
+    font-size: 1em;
+}
+pre:hover{
+   overflow: visible;
+}
+
